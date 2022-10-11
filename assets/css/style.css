@@ -5,6 +5,10 @@
     src: url('../font/MervaleScript-Regular.otf');
 }
 
+body {
+    background-color: #000;
+}
+
 main {
     min-height: 85vh;
     display: block;
