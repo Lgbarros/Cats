@@ -36,7 +36,6 @@ main {
 .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     z-index: 10;
 }
@@ -48,7 +47,7 @@ main {
     margin: 20px;
     border-radius: 20px;
     transition: 0.5s;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -215,5 +214,8 @@ footer {
         width: 100%;
         left: 0;
         padding: 40px;
+    }
+    .container {
+        flex-wrap: wrap;
     }
 }
